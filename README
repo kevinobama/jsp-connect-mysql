@@ -1,0 +1,6 @@
+How to deploy to tomcat
+copy jsp-connect-mysql to /var/lib/tomcat/webapps folder:
+/var/lib/tomcat/webapps/jsp-connect-mysql
+
+sudo chown -R tomcat:tomcat *
+sudo systemctl restart tomcat                   
